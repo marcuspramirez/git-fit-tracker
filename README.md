@@ -23,4 +23,4 @@ When the page loads, begin by selecting "new exercise".  Input your workout data
 ## Links
 
 ## Image
-![](public/images/tracker.PNG)
+![](/Develop/assets/tracker.PNG)
