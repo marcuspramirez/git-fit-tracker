@@ -26,6 +26,14 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", {
 app.use(require("./routes/api.js"));
 app.use(require("./routes/html.js"));
 
+
+// see if we succuessfully are connected to the database
+const dbase = mongoose.connection;
+dbase.on('error', console.error.bind(console, 'connection error:'));
+dbase.once('open', function() {
+  console.log("we're connected!");
+});
+
 app.listen(PORT, () => {
   console.log(`App running on port ${PORT}!`);
 });

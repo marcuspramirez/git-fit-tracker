@@ -143,6 +143,7 @@ if (workoutTypeSelect) {
 if (completeButton) {
   completeButton.addEventListener("click", function (event) {
     shouldNavigateAway = true;
+    // We should only handle form submit if data exists in form
     handleFormSubmit(event);
   });
 }
