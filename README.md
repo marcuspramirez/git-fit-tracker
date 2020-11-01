@@ -1,6 +1,6 @@
 # Git-Fit-Tracker
 
-![](public/images/tracker.PNG)
+
 
 ## Table of Contents
 
