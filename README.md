@@ -21,5 +21,4 @@ When the page loads, begin by selecting "new exercise".  Input your workout data
 
 ## Links
 
-
-![](develop/assets/tracker.png)
+![](public/images/burgerappsn.PNG)
